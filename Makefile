@@ -1,0 +1,11 @@
+gen: 
+	protoc -I=proto --go_out=. proto/*.proto
+
+clean:
+	rm protopackage/*.go
+
+run:
+	go run main.go
+
+test:
+	go test -cover -race ./...
