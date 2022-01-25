@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Protocol Buffers")
+	fmt.Println("Protocol Buffers!")
 }
